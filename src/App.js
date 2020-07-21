@@ -5,6 +5,7 @@ import {
   MenuItem,
   Card,
   CardContent,
+  FormHelperText,
 } from "@material-ui/core";
 import "./App.css";
 import axios from "axios";
@@ -70,7 +71,7 @@ export default function App() {
     <div className="app">
       <div className="app__left">
         <div className="app__header">
-          <h1>COVID-19 Tracker</h1>
+          <h1>COVID-19 Tracker </h1>
           <FormControl className="app__dropdown">
             <Select
               variant="outlined"
@@ -86,6 +87,13 @@ export default function App() {
                 );
               })}
             </Select>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://c19-yv.netlify.app/"
+            >
+              <FormHelperText>Click Here For Data Tables</FormHelperText>
+            </a>
           </FormControl>
         </div>
         {/* Stats */}
