@@ -137,6 +137,16 @@ export default function App() {
           <Table countries={tableData} />
           <h3 className="app__graphTitle">Worldwide Cases</h3>
           <LineGraph className="app__graph" casesType={casesType} />
+          <FormHelperText>
+            Built By{" "}
+            <a
+              href="https://imyash.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Yash Velagapudi
+            </a>
+          </FormHelperText>
         </CardContent>
         {/* Graph */}
       </Card>
