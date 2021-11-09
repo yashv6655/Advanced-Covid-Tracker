@@ -87,13 +87,13 @@ export default function App() {
                 );
               })}
             </Select>
-            <a
+            {/* <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://c19-yv.netlify.app/"
             >
               <FormHelperText>Click Here For Data Tables</FormHelperText>
-            </a>
+            </a> */}
           </FormControl>
         </div>
         {/* Stats */}
@@ -137,7 +137,7 @@ export default function App() {
           <Table countries={tableData} />
           <h3 className="app__graphTitle">Worldwide Cases</h3>
           <LineGraph className="app__graph" casesType={casesType} />
-          <FormHelperText>
+          {/* <FormHelperText>
             Built By{" "}
             <a
               href="https://imyash.netlify.app/"
@@ -146,7 +146,7 @@ export default function App() {
             >
               Yash Velagapudi
             </a>
-          </FormHelperText>
+          </FormHelperText> */}
         </CardContent>
         {/* Graph */}
       </Card>
